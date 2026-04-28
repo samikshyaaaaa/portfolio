@@ -1,0 +1,274 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Samikshya Shrestha – Portfolio</title>
+  <meta name="description" content="Samikshya Shrestha – CS undergraduate specializing in Data Science & AI. Full-stack web developer and data analyst based in Kathmandu."/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/portfolio.css"/>
+</head>
+<body>
+
+<!-- STICKY NAV -->
+<nav class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">Samikshya Shrestha</a>
+    <ul class="nav-links">
+      <li><a href="#home"     data-section="home">Home</a></li>
+      <li><a href="#about"    data-section="about">About</a></li>
+      <li><a href="#projects" data-section="projects">Projects</a></li>
+      <li><a href="#contact"  data-section="contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── HOME ── -->
+<section id="home">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <span class="section-badge reveal">✦ Computer Science Undergraduate</span>
+        <h1 class="reveal">Samikshya<br/>Shrestha</h1>
+        <p class="lead reveal">CS undergraduate specializing in Data Science with a strong interest in AI. I build modern web applications and data-driven solutions that solve real-world problems.</p>
+        <div class="btns reveal">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact"  class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-img-col reveal">
+        <div class="img-wrap float-anim">
+          <img src="/images/profile.png" alt="Samikshya Shrestha"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="container">
+    <span class="section-badge reveal">✦ About Me</span>
+    <h2 class="reveal">Get to know me</h2>
+    <div class="about-content reveal">
+      <p class="lead">I’m a Computer Science undergraduate specializing in Data Science, with a growing focus on Artificial Intelligence and Machine Learning. I enjoy building smart, real-world solutions by combining data-driven thinking with modern development practices.</p>
+      <p class="lead">Whether it’s developing responsive full-stack web applications or extracting meaningful insights from complex datasets, I’m driven by the balance between logic and creativity.</p>
+    </div>
+    
+    <div class="about-cards-container">
+      <div class="info-card reveal" style="transition-delay: 0.1s;">
+        <div class="card-icon">💻</div>
+        <h3 class="card-title">Development</h3>
+        <div class="card-body">
+          <ul class="card-list">
+            <li>Full-stack web apps</li>
+            <li>AI chatbot systems</li>
+            <li>Clean &amp; responsive UI</li>
+          </ul>
+        </div>
+      </div>
+      <div class="info-card reveal" style="transition-delay: 0.2s;">
+        <div class="card-icon">📊</div>
+        <h3 class="card-title">Data &amp; AI</h3>
+        <div class="card-body">
+          <ul class="card-list">
+            <li>Data analysis &amp; visualization</li>
+            <li>Tableau &amp; Pandas</li>
+            <li>Actionable insights</li>
+          </ul>
+        </div>
+      </div>
+      <div class="info-card reveal" style="transition-delay: 0.3s;">
+        <div class="card-icon">⚙️</div>
+        <h3 class="card-title">Tech Stack</h3>
+        <div class="card-body">
+          <ul class="card-list">
+            <li>Python, SQL, JavaScript</li>
+            <li>Pandas, NumPy</li>
+            <li>MySQL, MongoDB</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <div class="container">
+    <span class="section-badge reveal">✦ Projects</span>
+    <h2 class="reveal">Recent Projects</h2>
+    <p class="lead reveal">A curated selection of projects showcasing web development, AI systems, and data analysis work.</p>
+
+    <div class="projects-list">
+
+      <!-- P1: image left, text right -->
+      <article class="project-card reverse reveal">
+        <div class="project-img">
+          <img src="/images/chatbot.png" alt="Smart Hotel Booking System screenshot"/>
+          <div class="img-overlay"><div class="zoom-ic">⤢</div></div>
+        </div>
+        <div class="project-text">
+          <span class="proj-num">Project 01</span>
+          <h3 class="proj-title">Smart Hotel Booking System with AI Chatbot</h3>
+          <div class="proj-desc">
+            <p>A scalable web-based hotel booking platform with real-time reservations and AI-powered customer support. Dynamic booking engine with availability checks and optimised MySQL queries.</p>
+            <p>RESTful APIs built with PHP and Flask for seamless frontend–backend–chatbot communication. Focused on performance, data sync, and responsive UI.</p>
+          </div>
+          <div class="proj-divider"></div>
+          <div class="tech-pills">
+            <span class="pill">HTML5</span><span class="pill">CSS3</span><span class="pill">JavaScript</span><span class="pill">jQuery</span><span class="pill">Bootstrap</span><span class="pill">PHP</span><span class="pill">Flask</span><span class="pill">MySQL</span><span class="pill">AJAX</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- P2: text left, image right -->
+      <article class="project-card reveal">
+        <div class="project-text">
+          <span class="proj-num">Project 02</span>
+          <h3 class="proj-title">PlanPal</h3>
+          <div class="proj-desc">
+            <p>Web-based task management app with secure authentication and full CRUD — add, edit, delete, and complete tasks via a personalised dashboard.</p>
+            <p>Real-time AJAX interactions, client-side and server-side validation with jQuery &amp; PHP PDO. Responsive UI with efficient MySQL handling.</p>
+          </div>
+          <div class="proj-divider"></div>
+          <div class="tech-pills">
+            <span class="pill">PHP</span><span class="pill">MySQL</span><span class="pill">JavaScript</span><span class="pill">HTML5</span><span class="pill">jQuery</span><span class="pill">AJAX</span><span class="pill">PDO</span><span class="pill">Session Management</span>
+          </div>
+        </div>
+        <div class="project-img">
+          <img src="/images/planpal.png" alt="PlanPal screenshot"/>
+          <div class="img-overlay"><div class="zoom-ic">⤢</div></div>
+        </div>
+      </article>
+
+      <!-- P3: image left, text right -->
+      <article class="project-card reverse reveal">
+        <div class="project-img">
+          <img src="/images/weather.png" alt="Kathmandu Weather Analysis screenshot"/>
+          <div class="img-overlay"><div class="zoom-ic">⤢</div></div>
+        </div>
+        <div class="project-text">
+          <span class="proj-num">Project 03</span>
+          <h3 class="proj-title">Kathmandu Weather Analysis (2015–2025)</h3>
+          <div class="proj-desc">
+            <p>Interactive data visualisation project analysing long-term weather patterns in Kathmandu. Line charts, heatmaps, and scatter plots reveal climate trends.</p>
+            <p>Interactive Tableau dashboard with filtering, tooltips, and KPI indicators for efficient data exploration and data-driven decision-making.</p>
+          </div>
+          <div class="proj-divider"></div>
+          <div class="tech-pills">
+            <span class="pill">Tableau</span><span class="pill">Data Analysis</span><span class="pill">Data Cleaning</span><span class="pill">Dashboard Design</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="container">
+    <span class="section-badge reveal">✦ Contact</span>
+    <h2 class="reveal">Let's build something together</h2>
+    <p class="lead reveal">Open for internships, collaborations, and AI/web development opportunities.</p>
+    <div class="contact-grid">
+      <div class="c-card reveal">
+        <form onsubmit="sendMessage(event)">
+          <div class="f-group"><label class="f-label" for="name">Your Name</label><input id="name" type="text" placeholder="Full Name" required/></div>
+          <div class="f-group"><label class="f-label" for="email">Email Address</label><input id="email" type="email" placeholder="Email Address" required/></div>
+          <div class="f-group"><label class="f-label" for="msg">Message</label><textarea id="msg" rows="5" placeholder="Your Message" required></textarea></div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Send Message →</button>
+        </form>
+      </div>
+      <div class="reveal">
+        <a class="social-link" href="https://www.linkedin.com/in/samikshya-shrestha-a49059286/" target="_blank" rel="noopener"><span class="social-name">LinkedIn</span><span class="social-arr">Connect →</span></a>
+        <a class="social-link" href="https://github.com/samikshyaaaaa" target="_blank" rel="noopener"><span class="social-name">GitHub</span><span class="social-arr">Projects →</span></a>
+        <div class="info-block">
+          <p class="i-label">Email</p><p class="i-val">samikshyashr202@gmail.com</p>
+          <p class="i-label">Location</p><p class="i-val">Kathmandu, Nepal</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer><div class="container">© Samikshya Shrestha · Built with passion</div></footer>
+
+<!-- LIGHTBOX -->
+<div class="modal" id="modal">
+  <button class="modal-close" id="mClose">✕</button>
+  <img class="modal-img" id="mImg" src="" alt="Project preview"/>
+</div>
+
+<!-- BACK TO TOP -->
+<button id="btt" aria-label="Back to top">↑</button>
+
+<script is:inline src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script is:inline>
+emailjs.init("IsKgV1rSbFfgtjm9F");
+
+/* ── Nav scroll shadow ── */
+const nav = document.getElementById('site-nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 20);
+  document.getElementById('btt').classList.toggle('show', window.scrollY > 400);
+}, { passive: true });
+
+/* ── Active nav link via IntersectionObserver ── */
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a[data-section]');
+const secObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navLinks.forEach(a => a.classList.toggle('active', a.dataset.section === e.target.id));
+    }
+  });
+}, { rootMargin: '-40% 0px -55% 0px' });
+sections.forEach(s => secObs.observe(s));
+
+/* ── Scroll reveal ── */
+const revObs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); revObs.unobserve(e.target); } });
+}, { threshold: 0.10 });
+document.querySelectorAll('.reveal').forEach(el => revObs.observe(el));
+
+/* ── Lightbox ── */
+const modal = document.getElementById('modal');
+const mImg  = document.getElementById('mImg');
+const mClose = document.getElementById('mClose');
+document.querySelectorAll('.project-img').forEach(wrap => {
+  wrap.addEventListener('click', () => {
+    const img = wrap.querySelector('img');
+    mImg.src = img.src; mImg.alt = img.alt;
+    modal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  });
+});
+function closeModal() { modal.classList.remove('show'); document.body.style.overflow = ''; }
+mClose.addEventListener('click', closeModal);
+modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+/* ── Back to top ── */
+document.getElementById('btt').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+/* ── EmailJS ── */
+function sendMessage(e) {
+  e.preventDefault();
+  const params = {
+    from_name: document.getElementById('name').value,
+    from_email: document.getElementById('email').value,
+    message: document.getElementById('msg').value
+  };
+  emailjs.send('service_w3e8ksp', 'template_jj8erqo', params)
+    .then(() => alert('Message sent successfully!'))
+    .catch(err => { console.error(err); alert('Failed to send. Check console.'); });
+}
+</script>
+
+</body>
+</html>
